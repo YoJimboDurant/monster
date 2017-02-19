@@ -1,0 +1,849 @@
+---
+title: "Karg's Tower"
+output: html_document
+---
+<style>
+  .col2 {
+    columns: 2 200px;         /* number of columns and width in pixels*/
+    -webkit-columns: 2 200px; /* chrome, safari */
+    -moz-columns: 2 200px;    /* firefox */
+  }
+  .col3 {
+    columns: 3 100px;
+    -webkit-columns: 3 100px;
+    -moz-columns: 3 100px;
+  }
+</style>
+
+Notes: 
+
+Mirror room was last encounter
+
+Torqamata: 20 HP XP 25,211
+Morton: 7 HP 5/6 surges left XP 24967
+Liam: 47 HP XP 17,661
+Lem: 41 HP XP: XP 18,651
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Rooms {.tabset .tabset-fade .tabset-pills}
+
+
+
+
+###Room 1
+
+
+|                      |Babau                                                                                                                                |
+|:---------------------|:------------------------------------------------------------------------------------------------------------------------------------|
+|Name                  |Babau                                                                                                                                |
+|CR                    |6                                                                                                                                    |
+|XP                    |2,400                                                                                                                                |
+|Race                  |                                                                                                                                     |
+|Class1                |                                                                                                                                     |
+|Class1_Lvl            |NA                                                                                                                                   |
+|Class2                |                                                                                                                                     |
+|Class2_Lvl            |NA                                                                                                                                   |
+|Alignment             |CE                                                                                                                                   |
+|Size                  |Medium                                                                                                                               |
+|Type                  |outsider                                                                                                                             |
+|subtype1              |chaotic                                                                                                                              |
+|subtype2              |demon                                                                                                                                |
+|subtype3              |evil                                                                                                                                 |
+|subtype4              |extraplanar                                                                                                                          |
+|subtype5              |                                                                                                                                     |
+|subtype6              |                                                                                                                                     |
+|AC                    |19                                                                                                                                   |
+|AC_Touch              |11                                                                                                                                   |
+|AC_Flat.footed        |18                                                                                                                                   |
+|HP                    |73                                                                                                                                   |
+|HD                    |7d10+35                                                                                                                              |
+|Fort                  |10                                                                                                                                   |
+|Ref                   |6                                                                                                                                    |
+|Will                  |5                                                                                                                                    |
+|Melee                 |2 claws +12 (1d6+5), bite +12 (1d6+5) or longspear +12/+7 (1d8+7/×3), bite +7 (1d6+2)                                                |
+|Ranged                |                                                                                                                                     |
+|Space                 |5                                                                                                                                    |
+|Reach                 |5 (10 with longspear)                                                                                                                |
+|Str                   |21                                                                                                                                   |
+|Dex                   |13                                                                                                                                   |
+|Con                   |20                                                                                                                                   |
+|Int                   |14                                                                                                                                   |
+|Wis                   |13                                                                                                                                   |
+|Cha                   |16                                                                                                                                   |
+|Feats                 |Combat Reflexes, Improved Initiative, Iron Will, Skill Focus (Stealth)                                                               |
+|Skills                |Acrobatics +11, Climb +12, Disable Device +11, Escape Artist +11, Perception +19, Sense Motive +11, Sleight of Hand +11, Stealth +22 |
+|RacialMods            |+8 Perception, +8 Stealth                                                                                                            |
+|Languages             |Abyssal, Celestial, Draconic; telepathy 100 ft.                                                                                      |
+|SQ                    |                                                                                                                                     |
+|Environment           |any (Abyss)                                                                                                                          |
+|Organization          |solitary, pair, or gang (3-8)                                                                                                        |
+|Treasure              |standard (longspear, other treasure)                                                                                                 |
+|Group                 |Demon                                                                                                                                |
+|Gear                  |                                                                                                                                     |
+|OtherGear             |                                                                                                                                     |
+|CharacterFlag         |0                                                                                                                                    |
+|CompanionFlag         |0                                                                                                                                    |
+|Speed                 |30 ft.                                                                                                                               |
+|Base_Speed            |30                                                                                                                                   |
+|Fly_Speed             |                                                                                                                                     |
+|Maneuverability       |                                                                                                                                     |
+|Climb_Speed           |                                                                                                                                     |
+|Swim_Speed            |                                                                                                                                     |
+|Burrow_Speed          |                                                                                                                                     |
+|Speed_Special         |                                                                                                                                     |
+|Speed_Land            |1                                                                                                                                    |
+|Fly                   |0                                                                                                                                    |
+|Climb                 |0                                                                                                                                    |
+|Burrow                |0                                                                                                                                    |
+|Swim                  |0                                                                                                                                    |
+|VariantParent         |                                                                                                                                     |
+|ClassArchetypes       |                                                                                                                                     |
+|CompanionFamiliarLink |NULL                                                                                                                                 |
+|AlternateNameForm     |                                                                                                                                     |
+|id                    |75                                                                                                                                   |
+|UniqueMonster         |0                                                                                                                                    |
+|MR                    |0                                                                                                                                    |
+|Mythic                |0                                                                                                                                    |
+|MT                    |0                                                                                                                                    |
+|Source                |PFRPG Bestiary                                                                                                                       |
+|room                  |1                                                                                                                                    |
+|N                     |1                                                                                                                                    |
+|hp                    |69                                                                                                                                   |
+
+
+###Room 2
+
+
+|                      |Goblin                                                                                                                                                                                                                                        |
+|:---------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|Name                  |Goblin                                                                                                                                                                                                                                        |
+|CR                    |0.33                                                                                                                                                                                                                                          |
+|XP                    |135                                                                                                                                                                                                                                           |
+|Race                  |Goblin                                                                                                                                                                                                                                        |
+|Class1                |warrior                                                                                                                                                                                                                                       |
+|Class1_Lvl            |1                                                                                                                                                                                                                                             |
+|Class2                |                                                                                                                                                                                                                                              |
+|Class2_Lvl            |NA                                                                                                                                                                                                                                            |
+|Alignment             |NE                                                                                                                                                                                                                                            |
+|Size                  |Small                                                                                                                                                                                                                                         |
+|Type                  |humanoid                                                                                                                                                                                                                                      |
+|subtype1              |goblinoid                                                                                                                                                                                                                                     |
+|subtype2              |                                                                                                                                                                                                                                              |
+|subtype3              |                                                                                                                                                                                                                                              |
+|subtype4              |                                                                                                                                                                                                                                              |
+|subtype5              |                                                                                                                                                                                                                                              |
+|subtype6              |                                                                                                                                                                                                                                              |
+|AC                    |16                                                                                                                                                                                                                                            |
+|AC_Touch              |13                                                                                                                                                                                                                                            |
+|AC_Flat.footed        |14                                                                                                                                                                                                                                            |
+|HP                    |6                                                                                                                                                                                                                                             |
+|HD                    |1d10+1                                                                                                                                                                                                                                        |
+|Fort                  |3                                                                                                                                                                                                                                             |
+|Ref                   |2                                                                                                                                                                                                                                             |
+|Will                  |-1                                                                                                                                                                                                                                            |
+|Melee                 |short sword +2 (1d4/19-20)                                                                                                                                                                                                                    |
+|Ranged                |short bow +4 (1d4/x3)                                                                                                                                                                                                                         |
+|Space                 |5                                                                                                                                                                                                                                             |
+|Reach                 |5                                                                                                                                                                                                                                             |
+|Str                   |11                                                                                                                                                                                                                                            |
+|Dex                   |15                                                                                                                                                                                                                                            |
+|Con                   |12                                                                                                                                                                                                                                            |
+|Int                   |10                                                                                                                                                                                                                                            |
+|Wis                   |9                                                                                                                                                                                                                                             |
+|Cha                   |6                                                                                                                                                                                                                                             |
+|Feats                 |Improved Initiative                                                                                                                                                                                                                           |
+|Skills                |Ride +10, Stealth +10, Swim +4                                                                                                                                                                                                                |
+|RacialMods            |+4 Ride, +4 Stealth                                                                                                                                                                                                                           |
+|Languages             |Goblin                                                                                                                                                                                                                                        |
+|SQ                    |                                                                                                                                                                                                                                              |
+|Environment           |temperate forest and plains (usually coastal regions)                                                                                                                                                                                         |
+|Organization          |gang (4-9), warband (10-16 with goblin dog mounts), or tribe (17+ plus 100% noncombatants; 1 sergeant of 3rd level per 20 adults; 1 or 2 lieutenants of 4th or 5th level; 1 leader of 6th-8th level; and 10-40 goblin dogs, wolves, or worgs) |
+|Treasure              |NPC gear (leather armor, light wooden shield, short sword, short bow with 20 arrows, other treasure)                                                                                                                                          |
+|Group                 |                                                                                                                                                                                                                                              |
+|Gear                  |                                                                                                                                                                                                                                              |
+|OtherGear             |                                                                                                                                                                                                                                              |
+|CharacterFlag         |1                                                                                                                                                                                                                                             |
+|CompanionFlag         |0                                                                                                                                                                                                                                             |
+|Speed                 |30 ft.                                                                                                                                                                                                                                        |
+|Base_Speed            |30                                                                                                                                                                                                                                            |
+|Fly_Speed             |                                                                                                                                                                                                                                              |
+|Maneuverability       |                                                                                                                                                                                                                                              |
+|Climb_Speed           |                                                                                                                                                                                                                                              |
+|Swim_Speed            |                                                                                                                                                                                                                                              |
+|Burrow_Speed          |                                                                                                                                                                                                                                              |
+|Speed_Special         |                                                                                                                                                                                                                                              |
+|Speed_Land            |1                                                                                                                                                                                                                                             |
+|Fly                   |0                                                                                                                                                                                                                                             |
+|Climb                 |0                                                                                                                                                                                                                                             |
+|Burrow                |0                                                                                                                                                                                                                                             |
+|Swim                  |0                                                                                                                                                                                                                                             |
+|VariantParent         |                                                                                                                                                                                                                                              |
+|ClassArchetypes       |                                                                                                                                                                                                                                              |
+|CompanionFamiliarLink |NULL                                                                                                                                                                                                                                          |
+|AlternateNameForm     |                                                                                                                                                                                                                                              |
+|id                    |214                                                                                                                                                                                                                                           |
+|UniqueMonster         |0                                                                                                                                                                                                                                             |
+|MR                    |0                                                                                                                                                                                                                                             |
+|Mythic                |0                                                                                                                                                                                                                                             |
+|MT                    |0                                                                                                                                                                                                                                             |
+|Source                |PFRPG Bestiary                                                                                                                                                                                                                                |
+|room                  |2                                                                                                                                                                                                                                             |
+|N                     |20                                                                                                                                                                                                                                            |
+|hp                    |6  , 3  , 7  , 9  , 4  , 5  , 10  , 9  , 2  , 10  , 2  , 6  , 4  , 3  , 8  , 10  , 7  , 7  , 4  , 7                                                                                                                                           |
+
+
+###Room 3
+
+
+|                      |Hungry Flesh                                                      |
+|:---------------------|:-----------------------------------------------------------------|
+|Name                  |Hungry Flesh                                                      |
+|CR                    |3                                                                 |
+|XP                    |800                                                               |
+|Race                  |                                                                  |
+|Class1                |                                                                  |
+|Class1_Lvl            |NA                                                                |
+|Class2                |                                                                  |
+|Class2_Lvl            |NA                                                                |
+|Alignment             |N                                                                 |
+|Size                  |Large                                                             |
+|Type                  |ooze                                                              |
+|subtype1              |                                                                  |
+|subtype2              |                                                                  |
+|subtype3              |                                                                  |
+|subtype4              |                                                                  |
+|subtype5              |                                                                  |
+|subtype6              |                                                                  |
+|AC                    |8                                                                 |
+|AC_Touch              |6                                                                 |
+|AC_Flat.footed        |8                                                                 |
+|HP                    |47                                                                |
+|HD                    |5d8+25                                                            |
+|Fort                  |6                                                                 |
+|Ref                   |-2                                                                |
+|Will                  |-4                                                                |
+|Melee                 |slam +5 (1d6+4 plus disease and grab)                             |
+|Ranged                |                                                                  |
+|Space                 |10                                                                |
+|Reach                 |5                                                                 |
+|Str                   |16                                                                |
+|Dex                   |5                                                                 |
+|Con                   |20                                                                |
+|Int                   |-                                                                 |
+|Wis                   |1                                                                 |
+|Cha                   |1                                                                 |
+|Feats                 |                                                                  |
+|Skills                |                                                                  |
+|RacialMods            |                                                                  |
+|Languages             |                                                                  |
+|SQ                    |compression, monstrous growth, reactive regeneration, slime trail |
+|Environment           |any land or underground                                           |
+|Organization          |solitary or cluster (2-5)                                         |
+|Treasure              |incidental                                                        |
+|Group                 |                                                                  |
+|Gear                  |                                                                  |
+|OtherGear             |                                                                  |
+|CharacterFlag         |0                                                                 |
+|CompanionFlag         |0                                                                 |
+|Speed                 |20 ft., swim 20 ft.                                               |
+|Base_Speed            |20                                                                |
+|Fly_Speed             |                                                                  |
+|Maneuverability       |                                                                  |
+|Climb_Speed           |                                                                  |
+|Swim_Speed            |20                                                                |
+|Burrow_Speed          |                                                                  |
+|Speed_Special         |                                                                  |
+|Speed_Land            |1                                                                 |
+|Fly                   |0                                                                 |
+|Climb                 |0                                                                 |
+|Burrow                |0                                                                 |
+|Swim                  |1                                                                 |
+|VariantParent         |NULL                                                              |
+|ClassArchetypes       |                                                                  |
+|CompanionFamiliarLink |NULL                                                              |
+|AlternateNameForm     |                                                                  |
+|id                    |5263                                                              |
+|UniqueMonster         |0                                                                 |
+|MR                    |0                                                                 |
+|Mythic                |0                                                                 |
+|MT                    |0                                                                 |
+|Source                |PFRPG Bestiary 4                                                  |
+|room                  |3                                                                 |
+|N                     |1                                                                 |
+|hp                    |55                                                                |
+
+
+###Room 4
+
+
+|                      |Fachen                                     |
+|:---------------------|:------------------------------------------|
+|Name                  |Fachen                                     |
+|CR                    |5                                          |
+|XP                    |1,600                                      |
+|Race                  |                                           |
+|Class1                |                                           |
+|Class1_Lvl            |NA                                         |
+|Class2                |                                           |
+|Class2_Lvl            |NA                                         |
+|Alignment             |NE                                         |
+|Size                  |Medium                                     |
+|Type                  |aberration                                 |
+|subtype1              |                                           |
+|subtype2              |                                           |
+|subtype3              |                                           |
+|subtype4              |                                           |
+|subtype5              |                                           |
+|subtype6              |                                           |
+|AC                    |18                                         |
+|AC_Touch              |14                                         |
+|AC_Flat.footed        |14                                         |
+|HP                    |45                                         |
+|HD                    |7d8+14                                     |
+|Fort                  |4                                          |
+|Ref                   |3                                          |
+|Will                  |8                                          |
+|Melee                 |battleaxe +10 (1d8+5/x3), bite +5 (1d6+2)  |
+|Ranged                |                                           |
+|Space                 |5                                          |
+|Reach                 |5                                          |
+|Str                   |20                                         |
+|Dex                   |13                                         |
+|Con                   |15                                         |
+|Int                   |6                                          |
+|Wis                   |12                                         |
+|Cha                   |15                                         |
+|Feats                 |Acrobatic, Cleave, Iron Will, Power Attack |
+|Skills                |Acrobatics +13, Perception +9, Stealth +6  |
+|RacialMods            |                                           |
+|Languages             |Common                                     |
+|SQ                    |incredible balance                         |
+|Environment           |temperate hills or plains                  |
+|Organization          |solitary                                   |
+|Treasure              |standard (battleaxe, other treasure)       |
+|Group                 |                                           |
+|Gear                  |                                           |
+|OtherGear             |                                           |
+|CharacterFlag         |0                                          |
+|CompanionFlag         |0                                          |
+|Speed                 |30 ft.                                     |
+|Base_Speed            |30                                         |
+|Fly_Speed             |                                           |
+|Maneuverability       |                                           |
+|Climb_Speed           |                                           |
+|Swim_Speed            |                                           |
+|Burrow_Speed          |                                           |
+|Speed_Special         |                                           |
+|Speed_Land            |1                                          |
+|Fly                   |0                                          |
+|Climb                 |0                                          |
+|Burrow                |0                                          |
+|Swim                  |0                                          |
+|VariantParent         |NULL                                       |
+|ClassArchetypes       |                                           |
+|CompanionFamiliarLink |NULL                                       |
+|AlternateNameForm     |                                           |
+|id                    |5210                                       |
+|UniqueMonster         |0                                          |
+|MR                    |0                                          |
+|Mythic                |0                                          |
+|MT                    |0                                          |
+|Source                |PFRPG Bestiary 4                           |
+|room                  |4                                          |
+|N                     |1                                          |
+|hp                    |40                                         |
+
+
+###Room 5
+
+
+|                      |Buggane                                                     |
+|:---------------------|:-----------------------------------------------------------|
+|Name                  |Buggane                                                     |
+|CR                    |5                                                           |
+|XP                    |1,600                                                       |
+|Race                  |                                                            |
+|Class1                |                                                            |
+|Class1_Lvl            |NA                                                          |
+|Class2                |                                                            |
+|Class2_Lvl            |NA                                                          |
+|Alignment             |CE                                                          |
+|Size                  |Large                                                       |
+|Type                  |monstrous humanoid                                          |
+|subtype1              |                                                            |
+|subtype2              |                                                            |
+|subtype3              |                                                            |
+|subtype4              |                                                            |
+|subtype5              |                                                            |
+|subtype6              |                                                            |
+|AC                    |18                                                          |
+|AC_Touch              |8                                                           |
+|AC_Flat.footed        |18                                                          |
+|HP                    |51                                                          |
+|HD                    |6d10+18                                                     |
+|Fort                  |7                                                           |
+|Ref                   |4                                                           |
+|Will                  |6                                                           |
+|Melee                 |2 claws +11 (1d8+6), gore +11 (1d8+6)                       |
+|Ranged                |                                                            |
+|Space                 |10                                                          |
+|Reach                 |10                                                          |
+|Str                   |22                                                          |
+|Dex                   |9                                                           |
+|Con                   |17                                                          |
+|Int                   |6                                                           |
+|Wis                   |13                                                          |
+|Cha                   |6                                                           |
+|Feats                 |Great Fortitude, Improved Initiative, Skill Focus (Stealth) |
+|Skills                |Climb +10, Perception +9, Stealth +7 (+15 when underground) |
+|RacialMods            |+8 Stealth when underground                                 |
+|Languages             |Giant                                                       |
+|SQ                    |blind, earth distortion                                     |
+|Environment           |any underground                                             |
+|Organization          |solitary, pair, hunting party (3-5), or clan (6-30)         |
+|Treasure              |standard                                                    |
+|Group                 |                                                            |
+|Gear                  |                                                            |
+|OtherGear             |                                                            |
+|CharacterFlag         |0                                                           |
+|CompanionFlag         |0                                                           |
+|Speed                 |30 ft., burrow 30 ft.                                       |
+|Base_Speed            |30                                                          |
+|Fly_Speed             |                                                            |
+|Maneuverability       |                                                            |
+|Climb_Speed           |                                                            |
+|Swim_Speed            |                                                            |
+|Burrow_Speed          |                                                            |
+|Speed_Special         |                                                            |
+|Speed_Land            |1                                                           |
+|Fly                   |0                                                           |
+|Climb                 |0                                                           |
+|Burrow                |1                                                           |
+|Swim                  |0                                                           |
+|VariantParent         |                                                            |
+|ClassArchetypes       |                                                            |
+|CompanionFamiliarLink |NULL                                                        |
+|AlternateNameForm     |                                                            |
+|id                    |5152                                                        |
+|UniqueMonster         |0                                                           |
+|MR                    |0                                                           |
+|Mythic                |0                                                           |
+|MT                    |0                                                           |
+|Source                |PFRPG Bestiary 4                                            |
+|room                  |5                                                           |
+|N                     |1                                                           |
+|hp                    |40                                                          |
+
+
+###Room 6
+
+
+|                      |Junk Golem                     |
+|:---------------------|:------------------------------|
+|Name                  |Junk Golem                     |
+|CR                    |4                              |
+|XP                    |1,200                          |
+|Race                  |                               |
+|Class1                |                               |
+|Class1_Lvl            |NA                             |
+|Class2                |                               |
+|Class2_Lvl            |NA                             |
+|Alignment             |N                              |
+|Size                  |Medium                         |
+|Type                  |construct                      |
+|subtype1              |                               |
+|subtype2              |                               |
+|subtype3              |                               |
+|subtype4              |                               |
+|subtype5              |                               |
+|subtype6              |                               |
+|AC                    |19                             |
+|AC_Touch              |9                              |
+|AC_Flat.footed        |19                             |
+|HP                    |42                             |
+|HD                    |4d10+20                        |
+|Fort                  |1                              |
+|Ref                   |0                              |
+|Will                  |1                              |
+|Melee                 |2 slam +8 (1d6+4 plus disease) |
+|Ranged                |                               |
+|Space                 |5                              |
+|Reach                 |5                              |
+|Str                   |18                             |
+|Dex                   |9                              |
+|Con                   |-                              |
+|Int                   |-                              |
+|Wis                   |11                             |
+|Cha                   |1                              |
+|Feats                 |                               |
+|Skills                |                               |
+|RacialMods            |                               |
+|Languages             |                               |
+|SQ                    |discorporate                   |
+|Environment           |any                            |
+|Organization          |solitary or gang (2-6)         |
+|Treasure              |none                           |
+|Group                 |Golem                          |
+|Gear                  |                               |
+|OtherGear             |                               |
+|CharacterFlag         |0                              |
+|CompanionFlag         |0                              |
+|Speed                 |30 ft.                         |
+|Base_Speed            |30                             |
+|Fly_Speed             |                               |
+|Maneuverability       |                               |
+|Climb_Speed           |                               |
+|Swim_Speed            |                               |
+|Burrow_Speed          |                               |
+|Speed_Special         |                               |
+|Speed_Land            |1                              |
+|Fly                   |0                              |
+|Climb                 |0                              |
+|Burrow                |0                              |
+|Swim                  |0                              |
+|VariantParent         |NULL                           |
+|ClassArchetypes       |                               |
+|CompanionFamiliarLink |NULL                           |
+|AlternateNameForm     |                               |
+|id                    |5247                           |
+|UniqueMonster         |0                              |
+|MR                    |0                              |
+|Mythic                |0                              |
+|MT                    |0                              |
+|Source                |PFRPG Bestiary 4               |
+|room                  |6                              |
+|N                     |2                              |
+|hp                    |48  , 45                       |
+
+
+###Room 7
+
+
+|                      |Karkinoi                                                              |
+|:---------------------|:---------------------------------------------------------------------|
+|Name                  |Karkinoi                                                              |
+|CR                    |6                                                                     |
+|XP                    |2,400                                                                 |
+|Race                  |                                                                      |
+|Class1                |                                                                      |
+|Class1_Lvl            |NA                                                                    |
+|Class2                |                                                                      |
+|Class2_Lvl            |NA                                                                    |
+|Alignment             |CE                                                                    |
+|Size                  |Large                                                                 |
+|Type                  |monstrous humanoid                                                    |
+|subtype1              |aquatic                                                               |
+|subtype2              |                                                                      |
+|subtype3              |                                                                      |
+|subtype4              |                                                                      |
+|subtype5              |                                                                      |
+|subtype6              |                                                                      |
+|AC                    |19                                                                    |
+|AC_Touch              |9                                                                     |
+|AC_Flat.footed        |19                                                                    |
+|HP                    |76                                                                    |
+|HD                    |8d10+32                                                               |
+|Fort                  |6                                                                     |
+|Ref                   |6                                                                     |
+|Will                  |6                                                                     |
+|Melee                 |claw +13 (1d10+9/19-20 plus grab), slam +13 (1d6+6)                   |
+|Ranged                |                                                                      |
+|Space                 |10                                                                    |
+|Reach                 |10                                                                    |
+|Str                   |22                                                                    |
+|Dex                   |10                                                                    |
+|Con                   |16                                                                    |
+|Int                   |6                                                                     |
+|Wis                   |10                                                                    |
+|Cha                   |7                                                                     |
+|Feats                 |Combat Reflexes, Improved Critical (claw), Power Attack, Vital Strike |
+|Skills                |Intimidate +9, Perception +11, Swim +21                               |
+|RacialMods            |                                                                      |
+|Languages             |Aquan                                                                 |
+|SQ                    |water dependency                                                      |
+|Environment           |any water                                                             |
+|Organization          |solitary, gang (2-6), or tribe (3-18)                                 |
+|Treasure              |standard                                                              |
+|Group                 |                                                                      |
+|Gear                  |                                                                      |
+|OtherGear             |                                                                      |
+|CharacterFlag         |0                                                                     |
+|CompanionFlag         |0                                                                     |
+|Speed                 |30 ft., swim 40 ft.                                                   |
+|Base_Speed            |30                                                                    |
+|Fly_Speed             |                                                                      |
+|Maneuverability       |                                                                      |
+|Climb_Speed           |                                                                      |
+|Swim_Speed            |40                                                                    |
+|Burrow_Speed          |                                                                      |
+|Speed_Special         |                                                                      |
+|Speed_Land            |1                                                                     |
+|Fly                   |0                                                                     |
+|Climb                 |0                                                                     |
+|Burrow                |0                                                                     |
+|Swim                  |1                                                                     |
+|VariantParent         |                                                                      |
+|ClassArchetypes       |                                                                      |
+|CompanionFamiliarLink |NULL                                                                  |
+|AlternateNameForm     |                                                                      |
+|id                    |5279                                                                  |
+|UniqueMonster         |0                                                                     |
+|MR                    |0                                                                     |
+|Mythic                |0                                                                     |
+|MT                    |0                                                                     |
+|Source                |PFRPG Bestiary 4                                                      |
+|room                  |7                                                                     |
+|N                     |1                                                                     |
+|hp                    |85                                                                    |
+
+
+###Room 8
+
+
+|                      |Soulsliver                                                                                                                        |
+|:---------------------|:---------------------------------------------------------------------------------------------------------------------------------|
+|Name                  |Soulsliver                                                                                                                        |
+|CR                    |2                                                                                                                                 |
+|XP                    |600                                                                                                                               |
+|Race                  |                                                                                                                                  |
+|Class1                |                                                                                                                                  |
+|Class1_Lvl            |NA                                                                                                                                |
+|Class2                |                                                                                                                                  |
+|Class2_Lvl            |NA                                                                                                                                |
+|Alignment             |NE                                                                                                                                |
+|Size                  |Medium                                                                                                                            |
+|Type                  |outsider                                                                                                                          |
+|subtype1              |extraplanar                                                                                                                       |
+|subtype2              |shapechanger                                                                                                                      |
+|subtype3              |                                                                                                                                  |
+|subtype4              |                                                                                                                                  |
+|subtype5              |                                                                                                                                  |
+|subtype6              |                                                                                                                                  |
+|AC                    |15                                                                                                                                |
+|AC_Touch              |14                                                                                                                                |
+|AC_Flat.footed        |11                                                                                                                                |
+|HP                    |19                                                                                                                                |
+|HD                    |3d10+3                                                                                                                            |
+|Fort                  |4                                                                                                                                 |
+|Ref                   |6                                                                                                                                 |
+|Will                  |2                                                                                                                                 |
+|Melee                 |2 slams +5 (1d4+2)                                                                                                                |
+|Ranged                |                                                                                                                                  |
+|Space                 |5                                                                                                                                 |
+|Reach                 |5                                                                                                                                 |
+|Str                   |14                                                                                                                                |
+|Dex                   |17                                                                                                                                |
+|Con                   |12                                                                                                                                |
+|Int                   |11                                                                                                                                |
+|Wis                   |12                                                                                                                                |
+|Cha                   |13                                                                                                                                |
+|Feats                 |Dodge, Improved Initiative                                                                                                        |
+|Skills                |Acrobatics +9 (+13 when jumping), Bluff +7, Disguise +7 (+11 when using change shape), Perception +7, Sense Motive +7, Stealth +9 |
+|RacialMods            |+4 Acrobatics when jumping, +4 Disguise when using change shape                                                                   |
+|Languages             |Aklo, Common                                                                                                                      |
+|SQ                    |change shape (any humanoid, alter self), compression, mirror travel, perfect copy, sound mimicry (voices)                         |
+|Environment           |any land (extraplanar)                                                                                                            |
+|Organization          |solitary or gang (2-5)                                                                                                            |
+|Treasure              |incidental                                                                                                                        |
+|Group                 |                                                                                                                                  |
+|Gear                  |                                                                                                                                  |
+|OtherGear             |                                                                                                                                  |
+|CharacterFlag         |0                                                                                                                                 |
+|CompanionFlag         |0                                                                                                                                 |
+|Speed                 |40 ft.                                                                                                                            |
+|Base_Speed            |40                                                                                                                                |
+|Fly_Speed             |                                                                                                                                  |
+|Maneuverability       |                                                                                                                                  |
+|Climb_Speed           |                                                                                                                                  |
+|Swim_Speed            |                                                                                                                                  |
+|Burrow_Speed          |                                                                                                                                  |
+|Speed_Special         |                                                                                                                                  |
+|Speed_Land            |1                                                                                                                                 |
+|Fly                   |0                                                                                                                                 |
+|Climb                 |0                                                                                                                                 |
+|Burrow                |0                                                                                                                                 |
+|Swim                  |0                                                                                                                                 |
+|VariantParent         |NULL                                                                                                                              |
+|ClassArchetypes       |                                                                                                                                  |
+|CompanionFamiliarLink |NULL                                                                                                                              |
+|AlternateNameForm     |                                                                                                                                  |
+|id                    |5361                                                                                                                              |
+|UniqueMonster         |0                                                                                                                                 |
+|MR                    |0                                                                                                                                 |
+|Mythic                |0                                                                                                                                 |
+|MT                    |0                                                                                                                                 |
+|Source                |PFRPG Bestiary 4                                                                                                                  |
+|room                  |8                                                                                                                                 |
+|N                     |5                                                                                                                                 |
+|hp                    |30  , 9  , 28  , 26  , 22                                                                                                         |
+
+
+###Room 9
+
+
+|                      |Cephalophore                           |
+|:---------------------|:--------------------------------------|
+|Name                  |Cephalophore                           |
+|CR                    |8                                      |
+|XP                    |4,800                                  |
+|Race                  |                                       |
+|Class1                |                                       |
+|Class1_Lvl            |NA                                     |
+|Class2                |                                       |
+|Class2_Lvl            |NA                                     |
+|Alignment             |N                                      |
+|Size                  |Large                                  |
+|Type                  |construct                              |
+|subtype1              |                                       |
+|subtype2              |                                       |
+|subtype3              |                                       |
+|subtype4              |                                       |
+|subtype5              |                                       |
+|subtype6              |                                       |
+|AC                    |23                                     |
+|AC_Touch              |11                                     |
+|AC_Flat.footed        |21                                     |
+|HP                    |96                                     |
+|HD                    |12d10+30                               |
+|Fort                  |4                                      |
+|Ref                   |6                                      |
+|Will                  |5                                      |
+|Melee                 |2 slams +18 (2d6+7 plus dazing strike) |
+|Ranged                |                                       |
+|Space                 |10                                     |
+|Reach                 |10                                     |
+|Str                   |25                                     |
+|Dex                   |14                                     |
+|Con                   |-                                      |
+|Int                   |-                                      |
+|Wis                   |12                                     |
+|Cha                   |1                                      |
+|Feats                 |                                       |
+|Skills                |                                       |
+|RacialMods            |                                       |
+|Languages             |                                       |
+|SQ                    |shatter weapon, statue form            |
+|Environment           |any                                    |
+|Organization          |solitary or pair                       |
+|Treasure              |none                                   |
+|Group                 |                                       |
+|Gear                  |                                       |
+|OtherGear             |                                       |
+|CharacterFlag         |0                                      |
+|CompanionFlag         |0                                      |
+|Speed                 |20 ft.                                 |
+|Base_Speed            |20                                     |
+|Fly_Speed             |                                       |
+|Maneuverability       |                                       |
+|Climb_Speed           |                                       |
+|Swim_Speed            |                                       |
+|Burrow_Speed          |                                       |
+|Speed_Special         |                                       |
+|Speed_Land            |1                                      |
+|Fly                   |0                                      |
+|Climb                 |0                                      |
+|Burrow                |0                                      |
+|Swim                  |0                                      |
+|VariantParent         |NULL                                   |
+|ClassArchetypes       |                                       |
+|CompanionFamiliarLink |NULL                                   |
+|AlternateNameForm     |                                       |
+|id                    |5153                                   |
+|UniqueMonster         |0                                      |
+|MR                    |0                                      |
+|Mythic                |0                                      |
+|MT                    |0                                      |
+|Source                |PFRPG Bestiary 4                       |
+|room                  |9                                      |
+|N                     |1                                      |
+|hp                    |97                                     |
+
+
+###Room 10
+
+
+|                      |Great White Shark                                         |
+|:---------------------|:---------------------------------------------------------|
+|Name                  |Great White Shark                                         |
+|CR                    |4                                                         |
+|XP                    |1,200                                                     |
+|Race                  |                                                          |
+|Class1                |                                                          |
+|Class1_Lvl            |NA                                                        |
+|Class2                |                                                          |
+|Class2_Lvl            |NA                                                        |
+|Alignment             |N                                                         |
+|Size                  |Huge                                                      |
+|Type                  |animal                                                    |
+|subtype1              |aquatic                                                   |
+|subtype2              |                                                          |
+|subtype3              |                                                          |
+|subtype4              |                                                          |
+|subtype5              |                                                          |
+|subtype6              |                                                          |
+|AC                    |19                                                        |
+|AC_Touch              |10                                                        |
+|AC_Flat.footed        |17                                                        |
+|HP                    |42                                                        |
+|HD                    |5d8+20                                                    |
+|Fort                  |10                                                        |
+|Ref                   |6                                                         |
+|Will                  |4                                                         |
+|Melee                 |bite +9 (2d8+10 plus bleed)                               |
+|Ranged                |                                                          |
+|Space                 |15                                                        |
+|Reach                 |10                                                        |
+|Str                   |25                                                        |
+|Dex                   |14                                                        |
+|Con                   |19                                                        |
+|Int                   |1                                                         |
+|Wis                   |16                                                        |
+|Cha                   |4                                                         |
+|Feats                 |Great Fortitude, Improved Initiative, Weapon Focus (bite) |
+|Skills                |Perception +11, Swim +15                                  |
+|RacialMods            |                                                          |
+|Languages             |                                                          |
+|SQ                    |                                                          |
+|Environment           |any oceans                                                |
+|Organization          |solitary, pair, school (3-6), or pack (7-13)              |
+|Treasure              |none                                                      |
+|Group                 |Shark                                                     |
+|Gear                  |                                                          |
+|OtherGear             |                                                          |
+|CharacterFlag         |0                                                         |
+|CompanionFlag         |0                                                         |
+|Speed                 |swim 60 ft.                                               |
+|Base_Speed            |                                                          |
+|Fly_Speed             |                                                          |
+|Maneuverability       |                                                          |
+|Climb_Speed           |                                                          |
+|Swim_Speed            |60                                                        |
+|Burrow_Speed          |                                                          |
+|Speed_Special         |                                                          |
+|Speed_Land            |0                                                         |
+|Fly                   |0                                                         |
+|Climb                 |0                                                         |
+|Burrow                |0                                                         |
+|Swim                  |1                                                         |
+|VariantParent         |NULL                                                      |
+|ClassArchetypes       |                                                          |
+|CompanionFamiliarLink |NULL                                                      |
+|AlternateNameForm     |                                                          |
+|id                    |5352                                                      |
+|UniqueMonster         |0                                                         |
+|MR                    |0                                                         |
+|Mythic                |0                                                         |
+|MT                    |0                                                         |
+|Source                |PFRPG Bestiary 4                                          |
+|room                  |10                                                        |
+|N                     |1                                                         |
+|hp                    |50                                                        |
+
+
+### map
+
+
+![alt text](../maps/kargs_tower2.png)

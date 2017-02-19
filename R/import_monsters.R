@@ -44,9 +44,39 @@ roll_hit_points <- function(hit_die, n=1){
     })
   
   hp[hp<1] <- 1
-  return(hp)
+  return(paste(hp, col=" "))
 }
 
-library(pander)
 
-knitr::kable(t(monsters[1,]))
+
+dungeon_monsters <- 
+  monsters[grep("^goblin$|Buggane|Junk Golem|Fachen", monsters$Name, ignore.case = T),]
+
+
+dungeon_monsters$hp <- sapply(seq_along(dungeon_monsters$HD), function(i) roll_hit_points(dungeon_monsters$HD[i],  dungeon_monsters$N[i]))
+
+write_room = function(i, outfile = "./markdown/outfile.rmd"){
+  roomlines <- NULL
+  roomlines <- c("\n", paste("###Room", i), "\n")
+  room_monsters <- dungeon_monsters[i,]
+  room_monsters <- as.data.frame(t(room_monsters))
+  names(room_monsters) <- paste(dungeon_monsters[i,c("Name")], collapse=" ") 
+#  room_monsters <- room_monsters[room_monsters$N!="",]
+  monsters <- knitr::kable(room_monsters, format="markdown")
+  roomlines <- c(roomlines, monsters)
+  return(roomlines)
+}
+
+head_lines <- readLines("./markdown/header.rmd")
+
+outfile = "./markdown/kargstower.rmd"
+
+head_lines <- gsub("!TITLE!", "Karg's Tower", head_lines)
+
+
+
+rooms <- lapply(seq_along(1:dim(dungeon_monsters)[1]), function(i) write_room(i))
+
+write(head_lines, outfile)
+
+lapply(rooms, write, outfile, append=TRUE)
